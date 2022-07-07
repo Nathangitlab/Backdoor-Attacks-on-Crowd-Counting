@@ -1,4 +1,9 @@
-# backdoor-attack-counter-model
-this is for the ACM MM paper---Backdoor Attack on Crowd Counting
-It may be the first time that backdoor attacks are implemented in the crowd counting models (one of regression models). For explaining all findings we have got, experiments are finished in 5 classical Counter Models with 4 different datasets.
-We release the test part of the code to show the authenticity of the experiment.
+# Backdoor-Attacks-Crowd-Counting
+**Paper Link**
+
+##
+This work is supported by Hubei Engineering Research Center on Big Data Security. We greatly thank our supervisors Professor Pan Zhou and Professor Xinjun Ma for providing us with valuable guidance in every stage of the writing of this thesis. From our views, the most difficult part of backdooring these crowd counting models is how to control the connection of predicted density maps and the orginal input images and their ground truth values (high-dimemtional location values).
+
+* This is the official implementation code of paper submitted to ACM MM 2022.
+* We are the first work to backdoor density-based crowd counting models.
+
